@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1073c62f-50a4-43e2-9b98-7e14547c3924" name="Changes" comment="init" />
+    <list default="true" id="1073c62f-50a4-43e2-9b98-7e14547c3924" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SummaryPage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648481344942</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <created>1648481585260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648481585260</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init">
+      <created>1648481778452</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648481778452</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
