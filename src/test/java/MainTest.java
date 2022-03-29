@@ -9,8 +9,8 @@ public class MainTest extends BasePage {
     @Test
     public void Test() throws IOException {
         driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
-        new HomePage()
-                .homePageTest();
+         new HomePage()
+                 .homePageTest();
         new SkirtPage()
                 .skirt();
         new OrderChart()
@@ -20,6 +20,6 @@ public class MainTest extends BasePage {
         new SummaryPage()
                 .summaryPage();
         new SignIn()
-                .singInPage();
+                .userRegister();
     }
 }
