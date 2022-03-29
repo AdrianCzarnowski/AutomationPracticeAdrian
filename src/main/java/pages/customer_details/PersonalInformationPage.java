@@ -1,4 +1,4 @@
-package pages.custormer_details;
+package pages.customer_details;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

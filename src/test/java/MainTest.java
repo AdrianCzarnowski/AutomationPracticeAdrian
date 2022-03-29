@@ -1,12 +1,12 @@
 import org.junit.jupiter.api.Test;
 import pages.BasePage;
-import pages.custormer_details.AddressPage;
-import pages.custormer_details.PersonalInformationPage;
-import pages.custormer_details.SignIn;
+import pages.customer_details.AddressPage;
+import pages.customer_details.PersonalInformationPage;
+import pages.customer_details.SignIn;
 import pages.order.*;
-import pages.shippin_payment.PaymentConfirmPage;
-import pages.shippin_payment.PaymentMethodPage;
-import pages.shippin_payment.ShippingPage;
+import pages.shipping_payment.PaymentConfirmPage;
+import pages.shipping_payment.PaymentMethodPage;
+import pages.shipping_payment.ShippingPage;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
