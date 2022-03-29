@@ -1,4 +1,4 @@
-package pages.custormerDetails;
+package pages.custormer_details;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

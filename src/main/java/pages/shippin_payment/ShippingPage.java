@@ -1,4 +1,4 @@
-package pages.deliveryAndPayment;
+package pages.shippin_payment;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

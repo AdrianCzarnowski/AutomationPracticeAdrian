@@ -1,4 +1,4 @@
-package pages.custormerDetails;
+package pages.custormer_details;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -8,7 +8,6 @@ import org.slf4j.LoggerFactory;
 import pages.BasePage;
 
 import java.io.IOException;
-import java.util.Random;
 
 public class SignIn extends BasePage {
 
@@ -17,7 +16,6 @@ public class SignIn extends BasePage {
 
     public void userRegister() throws IOException {
 
-        Random random = new Random();
         JavascriptExecutor js = ((JavascriptExecutor) driver);
         js.executeScript("window.scrollTo(0, 200);");
 

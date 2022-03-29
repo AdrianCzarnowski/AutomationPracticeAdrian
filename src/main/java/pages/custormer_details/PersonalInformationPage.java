@@ -1,4 +1,4 @@
-package pages.custormerDetails;
+package pages.custormer_details;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -46,7 +46,7 @@ public class PersonalInformationPage extends BasePage {
         postCode.sendKeys("00000");
 
         WebElement mobilePhone = driver.findElement(By.cssSelector("#phone_mobile"));
-        mobilePhone.sendKeys("785698575");
+        mobilePhone.sendKeys(random.nextInt() + "");
 
         WebElement registerButton = driver.findElement(By.cssSelector("#submitAccount > span"));
         registerButton.click();

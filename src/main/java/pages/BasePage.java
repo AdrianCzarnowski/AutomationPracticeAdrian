@@ -13,6 +13,7 @@ import org.slf4j.LoggerFactory;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Random;
 
 public class BasePage {
 
@@ -22,7 +23,7 @@ public class BasePage {
     public static DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd h-m-s a");
     public static Date date = new Date();
     public static final String URL = "http://automationpractice.com/index.php";
-
+    public static Random random = new Random();
 
     public static final String PURPLE = "\u001B[35m";
     public static final String COLOR_RESET = "\u001B[0m";
