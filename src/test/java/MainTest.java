@@ -18,8 +18,8 @@ public class MainTest extends BasePage {
         driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
          new HomePage()
                  .homePageTest();
-        new SkirtPage()
-                .skirt();
+        new TShirtPage()
+                .tshirt();
         new OrderChart()
                 .orderChart();
         new BasketPage()

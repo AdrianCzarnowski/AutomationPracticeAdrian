@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class SignIn extends BasePage {
 
-    private static Logger log = LoggerFactory.getLogger("SummaryPage.class");
+    private static Logger log = LoggerFactory.getLogger("SignIn.class");
 
 
     public void userRegister() throws IOException {
@@ -22,10 +22,12 @@ public class SignIn extends BasePage {
         WebElement createAccountEmailAddres = driver.findElement(By.xpath("//*[@id=\"email_create\"]"));
         createAccountEmailAddres.click();
         createAccountEmailAddres.sendKeys( random.nextInt() + "@yklx.com");
+        log.info("<<<<<Email added properly");
 
 
         WebElement createButton = driver.findElement(By.cssSelector("#SubmitCreate > span"));
         createButton.click();
+
 
 
 

@@ -3,9 +3,13 @@ package pages.shippin_payment;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import pages.BasePage;
 
 public class PaymentMethodPage extends BasePage {
+
+    private static Logger log = LoggerFactory.getLogger("PaymentMethodPage.class");
 
 
     public void paymentPage() {

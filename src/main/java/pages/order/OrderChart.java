@@ -8,7 +8,7 @@ import pages.BasePage;
 
 public class OrderChart extends BasePage {
 
-    private static Logger log = LoggerFactory.getLogger("OrderChart2.class");
+    private static Logger log = LoggerFactory.getLogger("OrderChart.class");
 
     public void orderChart() {
 //        ((JavascriptExecutor)driver).executeScript("scroll(0,5500)");

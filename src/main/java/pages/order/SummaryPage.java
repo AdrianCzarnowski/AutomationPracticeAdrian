@@ -15,6 +15,7 @@ public class SummaryPage extends BasePage {
 //        js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
         WebElement element = driver.findElement(By.cssSelector("a.button.btn.btn-default.standard-checkout"));
         element.click();
+        log.info("<<<<<t-shirt ordered properly");
     }
 
 }

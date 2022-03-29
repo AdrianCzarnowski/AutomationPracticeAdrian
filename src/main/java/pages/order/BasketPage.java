@@ -8,7 +8,7 @@ import pages.BasePage;
 
 public class BasketPage extends BasePage {
 
-    private static Logger log = LoggerFactory.getLogger("SummaryPage.class");
+    private static Logger log = LoggerFactory.getLogger("BasketPage.class");
 
     public void basketPage() {
 

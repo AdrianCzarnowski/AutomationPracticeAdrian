@@ -3,9 +3,13 @@ package pages.custormer_details;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import pages.BasePage;
 
 public class AddressPage extends BasePage {
+
+    private static Logger log = LoggerFactory.getLogger("AddressPage.class");
 
     public void addressPage () {
 

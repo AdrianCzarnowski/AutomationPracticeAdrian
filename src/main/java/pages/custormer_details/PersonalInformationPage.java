@@ -17,12 +17,15 @@ public class PersonalInformationPage extends BasePage {
 
         WebElement firstName = driver.findElement(By.cssSelector("#customer_firstname"));
         firstName.sendKeys("Jacek");
+        log.info("<<<<<name added properly");
 
         WebElement lastName = driver.findElement(By.cssSelector("#customer_lastname"));
         lastName.sendKeys("Góralski");
+        log.info("<<<<<last name added properly");
 
         WebElement password = driver.findElement(By.cssSelector("#passwd"));
         password.sendKeys("Haslo12345@");
+        log.info("<<<<<psword added properly");
 
         WebElement dayBirth = driver.findElement(By.cssSelector("#days > option:nth-child(5)"));
         dayBirth.click();
@@ -32,24 +35,31 @@ public class PersonalInformationPage extends BasePage {
 
         WebElement yearBirth = driver.findElement(By.cssSelector("#years > option:nth-child(23)"));
         yearBirth.click();
+        log.info("<<<<<date of birth setup properly");
 
         WebElement address = driver.findElement(By.cssSelector("#address1"));
         address.sendKeys("Freedom 5/2");
+        log.info("<<<<<address added properly");
 
         WebElement city = driver.findElement(By.cssSelector("#city"));
         city.sendKeys("Minnesota");
+        log.info("<<<<<city added properly");
 
         WebElement state = driver.findElement(By.cssSelector("#id_state > option:nth-child(48)"));
         state.click();
 
         WebElement postCode = driver.findElement(By.cssSelector("#postcode"));
         postCode.sendKeys("00000");
+        log.info("<<<<<post code added properly");
 
         WebElement mobilePhone = driver.findElement(By.cssSelector("#phone_mobile"));
         mobilePhone.sendKeys(random.nextInt() + "");
+        log.info("<<<<<phone number added properly");
 
         WebElement registerButton = driver.findElement(By.cssSelector("#submitAccount > span"));
         registerButton.click();
+        log.info("<<<<<account  created properly");
+        log.info("♛♛♛♛♛♛♛♛♛♛♛♛");
 
 
 
