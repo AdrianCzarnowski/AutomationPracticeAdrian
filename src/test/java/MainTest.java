@@ -1,5 +1,12 @@
 import org.junit.jupiter.api.Test;
 import pages.*;
+import pages.custormerDetails.AddressPage;
+import pages.custormerDetails.PersonalInformationPage;
+import pages.deliveryAndPayment.PaymentConfirmPage;
+import pages.deliveryAndPayment.PaymentMethodPage;
+import pages.deliveryAndPayment.ShippingPage;
+import pages.custormerDetails.SignIn;
+import pages.order.*;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -21,5 +28,15 @@ public class MainTest extends BasePage {
                 .summaryPage();
         new SignIn()
                 .userRegister();
+        new PersonalInformationPage()
+                .personalInformationForm();
+        new AddressPage()
+                .addressPage();
+        new ShippingPage()
+                .shippingPage();
+        new PaymentMethodPage()
+                .paymentPage();
+        new PaymentConfirmPage()
+                .paymentConfirm();
     }
 }

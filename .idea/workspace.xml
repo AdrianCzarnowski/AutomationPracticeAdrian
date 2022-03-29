@@ -4,11 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1073c62f-50a4-43e2-9b98-7e14547c3924" name="Changes" comment="day2" />
+    <list default="true" id="1073c62f-50a4-43e2-9b98-7e14547c3924" name="Changes" comment="day2">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/custormerDetails/AddressPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/custormerDetails/PersonalInformationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/deliveryAndPayment/PaymentConfirmPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/deliveryAndPayment/PaymentMethodPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/deliveryAndPayment/ShippingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/BasketPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/OrderChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/OrderChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/custormerDetails/SignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SkirtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/SkirtPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/SummaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +56,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aczarnowski\IdeaProjects\AutomationPracticeAdrian\src\main\resources" />
       <recent name="C:\Users\aczarnowski\IdeaProjects\AutomationPracticeAdrian\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -104,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648540155465</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="day2">
+      <created>1648540670720</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648540670720</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

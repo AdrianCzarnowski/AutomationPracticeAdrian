@@ -4,6 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
@@ -21,6 +22,7 @@ public class BasePage {
     public static DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd h-m-s a");
     public static Date date = new Date();
     public static final String URL = "http://automationpractice.com/index.php";
+
 
     public static final String PURPLE = "\u001B[35m";
     public static final String COLOR_RESET = "\u001B[0m";
@@ -46,7 +48,7 @@ public class BasePage {
     void tearsDown() {
         driver.manage().deleteAllCookies();
         log.info("<<<<<Driver deleted cookies properly");
-        driver.quit();
+//        driver.quit();
         log.info("<<<<<Driver closed properly");
         log.info(BLACK + WHITE_BACKGROUND + "♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛" + COLOR_RESET);
     }
