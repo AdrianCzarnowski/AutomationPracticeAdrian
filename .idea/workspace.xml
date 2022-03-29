@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1073c62f-50a4-43e2-9b98-7e14547c3924" name="Changes" comment="Visual code improvement">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/shipping_payment/PaymentConfirmPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/shipping_payment/PaymentConfirmPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/shipping_payment/PaymentMethodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/shipping_payment/PaymentMethodPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/shipping_payment/ShippingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/shipping_payment/ShippingPage.java" afterDir="false" />
+    <list default="true" id="1073c62f-50a4-43e2-9b98-7e14547c3924" name="Changes" comment="addLoggs in payment">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/customer_details/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/customer_details/CreateAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648554402172</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="addLoggs in payment">
+      <created>1648554598242</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648554598242</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +204,7 @@
     <MESSAGE value="payment+reg" />
     <MESSAGE value="withLogger" />
     <MESSAGE value="Visual code improvement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Visual code improvement" />
+    <MESSAGE value="addLoggs in payment" />
+    <option name="LAST_COMMIT_MESSAGE" value="addLoggs in payment" />
   </component>
 </project>

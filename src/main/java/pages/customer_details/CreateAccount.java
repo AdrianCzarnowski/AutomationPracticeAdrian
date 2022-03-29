@@ -9,7 +9,7 @@ import pages.BasePage;
 
 import java.io.IOException;
 
-public class SignIn extends BasePage {
+public class CreateAccount extends BasePage {
 
     private static Logger log = LoggerFactory.getLogger("SignIn.class");
 

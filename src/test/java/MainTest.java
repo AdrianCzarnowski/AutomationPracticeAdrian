@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Test;
 import pages.BasePage;
 import pages.customer_details.AddressPage;
 import pages.customer_details.PersonalInformationPage;
-import pages.customer_details.SignIn;
+import pages.customer_details.CreateAccount;
 import pages.order.*;
 import pages.shipping_payment.PaymentConfirmPage;
 import pages.shipping_payment.PaymentMethodPage;
@@ -26,7 +26,7 @@ public class MainTest extends BasePage {
                 .basketPage();
         new OrderSummaryPage()
                 .orderSummaryPage();
-        new SignIn()
+        new CreateAccount()
                 .userRegister();
         new PersonalInformationPage()
                 .personalInformationForm();
