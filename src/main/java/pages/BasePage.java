@@ -48,7 +48,7 @@ public class BasePage {
     void tearsDown() {
         driver.manage().deleteAllCookies();
         log.info("<<<<<Driver deleted cookies properly");
-        driver.quit();
+//        driver.quit();
         log.info("<<<<<Driver closed properly");
         log.info(BLACK + WHITE_BACKGROUND + "♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛♛" + COLOR_RESET);
     }

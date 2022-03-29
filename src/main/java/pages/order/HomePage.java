@@ -11,13 +11,7 @@ public class HomePage extends BasePage {
     private static Logger log = LoggerFactory.getLogger("HomePage.class");
 
     public void homePageTest() {
-
         driver.get(URL);
-        WebElement element = driver.findElement(By.cssSelector(".search_query"));
-        element.click();
-        element.sendKeys("t-shirt");
-        WebElement element1 = driver.findElement(By.cssSelector("#searchbox .btn"));
-        element1.click();
     }
 
 }
