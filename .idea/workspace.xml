@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1073c62f-50a4-43e2-9b98-7e14547c3924" name="Changes" comment="payment+reg">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/custormer_details/AddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/custormer_details/AddressPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/custormer_details/PersonalInformationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/custormer_details/PersonalInformationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/custormer_details/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/custormer_details/SignIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/order/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/BasketPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/order/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/order/OrderChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/OrderChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/order/SkirtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/TShirtPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/order/SummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/SummaryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/shippin_payment/PaymentConfirmPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/shippin_payment/PaymentConfirmPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/shippin_payment/PaymentMethodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/shippin_payment/PaymentMethodPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/shippin_payment/ShippingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/shippin_payment/ShippingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+    <list default="true" id="1073c62f-50a4-43e2-9b98-7e14547c3924" name="Changes" comment="withLogger">
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/order/TShirtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/TShirtPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648552354291</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="withLogger">
+      <created>1648553505966</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648553505966</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +171,7 @@
     <MESSAGE value="day2" />
     <MESSAGE value="withRegistAndPayment" />
     <MESSAGE value="payment+reg" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment+reg" />
+    <MESSAGE value="withLogger" />
+    <option name="LAST_COMMIT_MESSAGE" value="withLogger" />
   </component>
 </project>

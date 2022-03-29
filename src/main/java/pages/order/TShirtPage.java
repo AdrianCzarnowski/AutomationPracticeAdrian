@@ -8,7 +8,7 @@ import pages.BasePage;
 
 public class TShirtPage extends BasePage {
 
-    private static Logger log = LoggerFactory.getLogger("SkirtPage.class");
+    private static Logger log = LoggerFactory.getLogger("TShirtPage.class");
 
     public void tshirt() {
         WebElement element = driver.findElement(By.cssSelector(".left-block > div > a.product_img_link > img"));
