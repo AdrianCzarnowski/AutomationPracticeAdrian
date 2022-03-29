@@ -9,7 +9,6 @@ import pages.BasePage;
 public class PersonalInformationPage extends BasePage {
     private static Logger log = LoggerFactory.getLogger("PersonalInformationPage.class");
 
-
     public void personalInformationForm() {
 
         WebElement gender = driver.findElement(By.cssSelector("#id_gender1"));

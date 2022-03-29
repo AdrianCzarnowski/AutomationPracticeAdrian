@@ -11,7 +11,7 @@ public class AddressPage extends BasePage {
 
     private static Logger log = LoggerFactory.getLogger("AddressPage.class");
 
-    public void addressPage () {
+    public void addressPage() {
 
         JavascriptExecutor js = ((JavascriptExecutor) driver);
         js.executeScript("window.scrollTo(0, 400);");

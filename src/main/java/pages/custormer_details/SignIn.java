@@ -13,7 +13,6 @@ public class SignIn extends BasePage {
 
     private static Logger log = LoggerFactory.getLogger("SignIn.class");
 
-
     public void userRegister() throws IOException {
 
         JavascriptExecutor js = ((JavascriptExecutor) driver);
@@ -23,7 +22,6 @@ public class SignIn extends BasePage {
         createAccountEmailAddres.click();
         createAccountEmailAddres.sendKeys( random.nextInt() + "@yklx.com");
         log.info("<<<<<Email added properly");
-
 
         WebElement createButton = driver.findElement(By.cssSelector("#SubmitCreate > span"));
         createButton.click();
