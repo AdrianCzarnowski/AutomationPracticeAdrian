@@ -18,6 +18,7 @@ public class PaymentMethodPage extends BasePage {
 
         WebElement paymentMethodBankWire = driver.findElement(By.cssSelector("#HOOK_PAYMENT > div:nth-child(1) > div > p > a"));
         paymentMethodBankWire.click();
+        log.info("<<<<<payment picked properly");
     }
 
 }

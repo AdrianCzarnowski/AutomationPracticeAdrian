@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1073c62f-50a4-43e2-9b98-7e14547c3924" name="Changes" comment="withLogger">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/custormer_details/AddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/custormer_details/AddressPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/custormer_details/PersonalInformationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/custormer_details/PersonalInformationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/custormer_details/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/custormer_details/SignIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/order/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/order/SummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/OrderSummaryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/order/TShirtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/ItemPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+    <list default="true" id="1073c62f-50a4-43e2-9b98-7e14547c3924" name="Changes" comment="Visual code improvement">
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/shipping_payment/PaymentConfirmPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/shipping_payment/PaymentConfirmPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/shipping_payment/PaymentMethodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/shipping_payment/PaymentMethodPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/shipping_payment/ShippingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/shipping_payment/ShippingPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648553948395</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Visual code improvement">
+      <created>1648554320116</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648554320116</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Visual code improvement">
+      <created>1648554402172</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1648554402172</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +195,7 @@
     <MESSAGE value="withRegistAndPayment" />
     <MESSAGE value="payment+reg" />
     <MESSAGE value="withLogger" />
-    <option name="LAST_COMMIT_MESSAGE" value="withLogger" />
+    <MESSAGE value="Visual code improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Visual code improvement" />
   </component>
 </project>

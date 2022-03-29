@@ -20,5 +20,6 @@ public class ShippingPage extends BasePage {
 
         WebElement shippingButton = driver.findElement(By.cssSelector("p > button > span"));
         shippingButton.click();
+        log.info("<<<<<shpping confirmed");
     }
 }

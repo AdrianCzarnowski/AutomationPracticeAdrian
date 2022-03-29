@@ -16,5 +16,6 @@ public class PaymentConfirmPage extends BasePage {
         js.executeScript("window.scrollTo(0, 400);");
         WebElement confirmButton = driver.findElement(By.cssSelector("#cart_navigation > button > span"));
         confirmButton.click();
+        log.info("<<<<<payment confirmed properly");
     }
 }
