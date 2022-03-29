@@ -15,7 +15,7 @@ public class MainTest extends BasePage {
 
     @Test
     public void Test() throws IOException {
-        driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
         new HomePage()
                 .homePageTest();
         new ItemPage()

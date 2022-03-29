@@ -18,7 +18,6 @@ public class HomePage extends BasePage {
         element.sendKeys("t-shirt");
         WebElement element1 = driver.findElement(By.cssSelector("#searchbox .btn"));
         element1.click();
-        log.info("<<<<<t-shirt found properly");
     }
 
 }
