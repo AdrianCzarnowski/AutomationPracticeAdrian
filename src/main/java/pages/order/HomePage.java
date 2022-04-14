@@ -12,6 +12,7 @@ public class HomePage extends BasePage {
 
     public void homePageTest() {
         driver.get(URL);
+//        return new SearchPage();
     }
 
 }

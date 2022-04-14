@@ -14,7 +14,5 @@ public class ItemPage extends BasePage {
         WebElement element = driver.findElement(By.cssSelector(".left-block > div > a.product_img_link > img"));
         element.click();
         log.info("<<<<<t-shirt found properly");
-
     }
-
 }

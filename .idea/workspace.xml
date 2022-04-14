@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1073c62f-50a4-43e2-9b98-7e14547c3924" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/login/HomePageSingIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/login/SingInForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/order/SearchPage.java" afterDir="false" />
+    <list default="true" id="1073c62f-50a4-43e2-9b98-7e14547c3924" name="Changes" comment="add Login test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/login/SingInForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/login/SingInForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/order/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/order/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MainTest.loginTest">
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeAdrian" />
       <option name="PACKAGE_NAME" value="" />
@@ -64,8 +62,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeAdrian" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeAdrian" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.loginTest" />
+        <item itemvalue="JUnit.MainTest.Test" />
         <item itemvalue="JUnit.MainTest" />
       </list>
     </recent_temporary>
@@ -205,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648556146390</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add Login test">
+      <created>1648557232298</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1648557232298</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add Login test">
+      <created>1648557318312</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1648557318312</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +263,7 @@
     <MESSAGE value="Visual code improvement" />
     <MESSAGE value="addLoggs in payment" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="add Login test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Login test" />
   </component>
 </project>

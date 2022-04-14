@@ -15,7 +15,7 @@ public class SingInForm extends BasePage {
         emailField.sendKeys("testerpolska1234567890@gmail.com");
 
         WebElement passwordField = driver.findElement(By.cssSelector("#passwd"));
-        passwordField.sendKeys("Haslo12345%");
+        passwordField.sendKeys("Haslo12345@%");
 
         WebElement singInButton = driver.findElement(By.cssSelector("#SubmitLogin"));
         singInButton.click();
